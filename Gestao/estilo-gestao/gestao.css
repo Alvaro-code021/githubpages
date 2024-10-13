@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+/*
+#4169e1
+#2f5add
+#204fdd
+#0c44ed
+#033ceb
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --cor1: #a0b8ffc8;
+    --cor2: #5979d8;
+    --cor3: #3c62d5;
+    --cor4: #00175e;
+    --cor5: #06112f;
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: "Bebas Neue", sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: var(--cor1);
+}
+
+header{
+    background-image: -moz-linear-gradient(to bottom, var(--cor3), var(--cor4));
+    font-weight: normal;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-family: var(--fonte-destaque);
+    font-size: 1.3em;
+    text-shadow: 3px 3px 0px rgba(0, 0, 0, 0.49);
+}
+
+header h1{
+    max-width: 500px;
+    margin: auto;
+}
+
+header p{
+    font-size: 1.4em;
+    padding: 0px 6px;
+}
+
+nav{
+    text-align: center;
+    padding: 10px;
+    background-color: var(--cor4);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.461);
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 5px;
+}
+
+nav a:hover{
+    background-color: var(--cor2);
+    color: var(--cor5);
+    padding: 10px;
+}
+
+main{
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    min-width: 250px;
+    max-width: 800px;
+    margin-bottom: 30px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.423);
+}
+
+main h1, h2, h3{
+    color: var(--cor5);
+    margin-top: 10px;
+    font-family: sans-serif;
+    text-indent: 10px;
+}
+
+main h2{
+    background-image: -moz-linear-gradient(to right, var(--cor1), transparent);
+    font-size: 22px;
+    padding: 0px;
+  
+}
+
+main h3{
+    font-size: 18px;
+    text-indent: 0px;
+}
+
+main p{
+    text-indent: 20px;
+    text-align: justify;
+    font-family: var(--fonte-padrao);
+    padding: 10px 0px;
+    line-height: 1.3em;
+    font-size: 1.1em;
+}
+
+main ul{
+    list-style-position: inside;
+}
+
+ul#l1 li{
+    padding: 5px 0px;
+}
+
+ul#l2 li{
+    padding: 10px 0px;
+}
+
+ul strong{
+    font-weight: bold;
+    color: var(--cor5);
+    background-color: #a0b8ff5c;
+}
+
+aside{
+    background: var(--cor1);
+    border-radius: 20px;
+    padding-bottom: 10px;
+    margin: 0px 10px 30px 10px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.48);
+}
+
+aside h2{
+    color: white;
+    background-color: var(--cor3);
+    padding: 5px;
+    text-indent: 5px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+aside p{
+    margin: 0px;
+    padding: 10px 18px;
+}
+
+aside ul{
+    list-style-position: inside;
+    padding: 10px;
+}
+
+aside li{
+    margin-bottom: 1.3em;
+}
+
+footer{
+    background-color: var(--cor4);
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    padding: 2px;
+    font-weight: bold;
+}
